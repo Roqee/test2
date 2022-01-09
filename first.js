@@ -8,6 +8,7 @@
 	</head>
 	<body>
 		<script>
+			// 正则表达式练习
 			window.eval("var i = 100");
 			// alert(i);
 			// var reg = /(?=(\d{3})+$)/g;
