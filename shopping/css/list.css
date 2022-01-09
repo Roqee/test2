@@ -1,0 +1,106 @@
+/* 列表页专有css */
+.body {
+    background-color: #fff;
+}
+.nav {
+  overflow: hidden;
+}
+.sk {
+  position: absolute;
+  left: 185px;
+  top: 40px;
+  border-left: 1px solid #b1191a;
+  padding: 3px 0 3px 14px;
+}
+.sk_list {
+  float: left;
+}
+.sk_list ul li {
+  float: left;
+}
+.sk_list ul li a {
+  display: block;
+  line-height: 47px;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.sk_con {
+  float: left;
+}
+.sk_con ul li {
+  float: left;
+}
+.sk_con ul li a {
+  display: block;
+  line-height: 49px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+.sk_con ul li:last-child a::after {
+  content: "\e91e";
+  font-family: "icomoon";
+}
+.sk_bd ul li {
+  overflow:hidden ;
+  float: left;
+  width: 290px;
+  height: 460px;
+  margin-right: 13px;
+  border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n) {
+  margin-right: 0;
+}
+.sk_bd ul li:hover {
+  border: 1px solid #b1191a;
+}
+.sk_bd ul li a img {
+  width: 100%;
+}
+.sk_bd ul li p {
+  margin: 10px 12px;
+}
+.sk_bd ul li > img {
+  margin: 12px 12px;
+}
+.sale .shengyu {
+  position: relative;
+  display: inline-block;
+  width: 132px;
+  height: 12px;
+  border: 1px solid #ed282e;
+  border-radius: 6px;
+}
+.sale {
+  margin-left: 12px;
+}
+.sale div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 116px;
+  height: 10px;
+  background-color: #ed282e;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.qianggou {
+  width: 290px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #b1191a;
+  margin-top: 9px;
+}
+.qianggou a {
+  display: block;
+  width: 290px;
+  height: 50px;
+  font-size: 20px;
+  color: #fff;
+}
+.footer {
+  margin-top: 250px;
+}
